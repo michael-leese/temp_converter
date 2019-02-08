@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+  <span>Input</span>
+<input name="number" type="number" id="inputtemp">
+  <br>
+  <br>
+  <select name="temptype" id="selector">
+    <option value="blank" selected disabled>Pick</option>
+    <option value="C">Celsius</option>
+    <option value="F">Fahrenheit</option>
+  </select>
+  <br>
+  <br>
+  <input value="Submit" type="button" onclick="valInput()">
+  <br>
+  <br>
+  <div style="display:flex; align-items:center">
+  <p>Output</p> 
+  <div id="outputtemp" style="margin-left:5px; border: 0.01em solid #ccc; height:22px; width:168px; background-color:#fff; "></div>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
